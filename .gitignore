@@ -1,0 +1,24 @@
+# Dependencies
+**/node_modules/
+**/vendor/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Database files
+database_dump.sql
+*.sqlite
+*.sqlite3
+
+# Generated files
+**/dist/
+**/build/
+
+# Laravel generated files
+/music-platform/storage/logs/*
+/music-platform/bootstrap/cache/*.php
+
+# System files
+.DS_Store
